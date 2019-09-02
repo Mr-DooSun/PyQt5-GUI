@@ -20,6 +20,7 @@ class Ui_MainWindow(object):
         self.label.setObjectName("label") 
         self.label.setText("Test set Text") #텍스트 변환
         self.label.setFont(QtGui.QFont("궁서",20)) #폰트,크기 조절
+        self.label.setStyleSheet("Color : green") #글자색 변환
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)

@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.widget_youtube = QtWidgets.QWidget(self.centralwidget)
         self.widget_List.append(self.widget_youtube)
         self.widget_youtube.setGeometry(QtCore.QRect(2, 100, 500, 300))
-        self.widget_youtube.setStyleSheet("background-color: rgb(84, 84, 84);")
+        # self.widget_youtube.setStyleSheet("background-color: rgb(84, 84, 84);")
         self.widget_youtube.setObjectName("widget_youtube")
 
         self.webview=QtWebEngineWidgets.QWebEngineView(self.widget_youtube)

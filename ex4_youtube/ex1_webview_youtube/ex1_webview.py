@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
         self.widget_youtube.setObjectName("widget_youtube")
 
         self.webview=QtWebEngineWidgets.QWebEngineView(self.widget_youtube)
-        self.webview.setUrl(QUrl("https://www.youtube.com/embed/5wkd5q4kGSo?autoplay=1"))
+        self.webview.setUrl(QUrl("https://www.youtube.com/embed/t67_zAg5vvI?autoplay=1"))
         self.webview.setGeometry(0,0,500,300)
 
 

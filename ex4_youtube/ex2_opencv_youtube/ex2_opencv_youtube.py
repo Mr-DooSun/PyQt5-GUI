@@ -28,7 +28,7 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def Video_to_frame(self, MainWindow):
-        url = "https://www.youtube.com/watch?v=pLada1fYx0k"
+        url = "https://www.youtube.com/watch?v=t67_zAg5vvI"
         vPafy = pafy.new(url)
 
         video_length=vPafy.length/60
@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
                 self.video_viewer_label.setPixmap(self.p)
                 self.video_viewer_label.update()
 
-                sleep(0.02) #Youtube 영상 1프레임당 0.02초
+                sleep(0.03) #Youtube 영상 1프레임당 0.03초
 
             else :
                 break

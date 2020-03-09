@@ -11,7 +11,7 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(120, 220, 300, 31))
         self.label.setObjectName("label")
         
-        self.label.setText("연습") #텍스트 변환
+        self.label.setText("test of text") #텍스트 변환
         self.label.setFont(QtGui.QFont("궁서",20)) #폰트,크기 조절
         self.label.setStyleSheet("Color : green") #글자색 변환
 

@@ -17,11 +17,11 @@ class Ui_MainWindow(QtWidgets.QWidget):
         self.about_button.clicked.connect(self.About_event)
 
         # Information_button
-        self.Information_button = QtWidgets.QPushButton(self.centralwidget)
-        self.Information_button.setGeometry(QtCore.QRect(140, 90, 100, 30))
-        self.Information_button.setObjectName("Information_button")
-        self.Information_button.setText("Information")
-        self.Information_button.clicked.connect(self.Information_event)
+        self.information_button = QtWidgets.QPushButton(self.centralwidget)
+        self.information_button.setGeometry(QtCore.QRect(140, 90, 100, 30))
+        self.information_button.setObjectName("information_button")
+        self.information_button.setText("Information")
+        self.information_button.clicked.connect(self.Information_event)
 
         # Warning_button
         self.warning_button = QtWidgets.QPushButton(self.centralwidget)

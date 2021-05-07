@@ -16,12 +16,12 @@ class Ui_MainWindow(QtWidgets.QWidget):
         self.about_button.setText("About")
         self.about_button.clicked.connect(self.About_event)
 
-        # Imformation_button
-        self.imformation_button = QtWidgets.QPushButton(self.centralwidget)
-        self.imformation_button.setGeometry(QtCore.QRect(140, 90, 100, 30))
-        self.imformation_button.setObjectName("imformation_button")
-        self.imformation_button.setText("Imformation")
-        self.imformation_button.clicked.connect(self.Imformation_event)
+        # Information_button
+        self.Information_button = QtWidgets.QPushButton(self.centralwidget)
+        self.Information_button.setGeometry(QtCore.QRect(140, 90, 100, 30))
+        self.Information_button.setObjectName("Information_button")
+        self.Information_button.setText("Information")
+        self.Information_button.clicked.connect(self.Information_event)
 
         # Warning_button
         self.warning_button = QtWidgets.QPushButton(self.centralwidget)
@@ -53,9 +53,9 @@ class Ui_MainWindow(QtWidgets.QWidget):
     # About 버튼 클릭 이벤트
     def About_event(self) :
         QMessageBox.about(self,'About Title','About Message')
-    
-    # Imformation 버튼  클릭 이벤트
-    def Imformation_event(self):
+        
+    # Information 버튼  클릭 이벤트
+    def Information_event(self):
         buttonReply = QMessageBox.information(
             self, 'Information Title', "Information Message", 
             QMessageBox.Yes | QMessageBox.Save | QMessageBox.Cancel | QMessageBox.Reset | QMessageBox.No, 

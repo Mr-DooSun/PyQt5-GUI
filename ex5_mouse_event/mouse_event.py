@@ -7,8 +7,8 @@ class MainWiondw(QWidget):
 	def __init__(self):
 		super().__init__()
 
-		self.width = 526
-		self.height = 459
+		self.width = 512
+		self.height = 512
 
 		self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
 		self.resize(self.width, self.height)

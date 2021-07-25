@@ -7,6 +7,7 @@ class Ui_MainWindow(QWidget):
         self.setupUi()
 
     def setupUi(self):
+        self.setWindowTitle('LineEdit')
         self.resize(300, 300)
 
         self.line_edit = QLineEdit(self)
